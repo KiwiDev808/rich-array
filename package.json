@@ -1,0 +1,21 @@
+{
+  "name": "rich-array",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "example:chunks": "ts-node examples/chunks.ts",
+    "example:clear": "ts-node examples/clear.ts",
+    "example:reversed": "ts-node examples/reversed.ts",
+    "example:take": "ts-node examples/take.ts",
+    "example:toRichArray": "ts-node examples/toRichArray.ts"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.2.4",
+    "jest": "^29.3.1",
+    "ts-jest": "^29.0.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  }
+}
